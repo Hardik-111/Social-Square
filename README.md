@@ -10,7 +10,7 @@ Social-Square is a website through which people can connect with friends and eac
 *User can upload/delete their post \
 *User can scroll through their feed \
 *User can follow or unfollow \
-*User can like or dislike post \
+*User can like or dislike post 
 
 The website is responsive.
 
