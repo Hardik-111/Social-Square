@@ -3,14 +3,14 @@ Social-Square is a website through which people can connect with friends and eac
 
 #Key Features Implemented :
 
-*Login Page \n
-*Signup/Register Page \n
-*Homepage \n
-*User have their Profile page \n
-*User can upload/delete their post \n
-*User can scroll through their feed \n
-*User can follow or unfollow \n
-*User can like or dislike post \n
+*Login Page \
+*Signup/Register Page \
+*Homepage \
+*User have their Profile page \
+*User can upload/delete their post \
+*User can scroll through their feed \
+*User can follow or unfollow \
+*User can like or dislike post \
 
 The website is responsive.
 
