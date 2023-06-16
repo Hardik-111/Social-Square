@@ -1,7 +1,7 @@
 .login {
   width: 100vw;
   height: 100vh;
-  background-color: #f0f2f5;
+  background: linear-gradient(to right, #485563, #29323c);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,7 +24,7 @@
 .loginLogo {
   font-size: 50px;
   font-weight: 800;
-  color: #1775ee;
+  color: white;
   margin-bottom: 10px;
 }
 
