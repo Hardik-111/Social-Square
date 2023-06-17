@@ -10,17 +10,20 @@ Social-Square is a website through which people can connect with friends and eac
 *User can upload/delete their post \
 *User can scroll through their feed \
 *User can follow or unfollow \
-*User can like or dislike post 
+*User can like or dislike post \
 
 The website is responsive.
 
 ![image](https://github.com/Hardik-111/Social-Square/assets/112047643/4b8b057b-fbbb-4589-8b7e-cbdac6be4fe1)
-
+Register Page
 ![image](https://github.com/Hardik-111/Social-Square/assets/112047643/3a1a40ed-08f8-43c3-b9b7-6d19b26b7e35)
-
-![image](https://github.com/Hardik-111/Social-Square/assets/112047643/748ee106-949b-4313-b267-2fd5c9886f46)
-
-![image](https://github.com/Hardik-111/Social-Square/assets/112047643/b1588b51-6eee-4ad4-9a70-6ece44f68ef1)
+Login Page
+![image](https://github.com/Hardik-111/Social-Square/assets/89783619/2c549aad-875c-4a1c-b7eb-ef84feb14ab1)
+Homepage
+![image](https://github.com/Hardik-111/Social-Square/assets/89783619/1fef1430-1697-4b08-bfc6-9c1bd9eed783)
+Feed
+![image](https://github.com/Hardik-111/Social-Square/assets/89783619/0f518c0d-7b05-4dd2-978a-145a85915718)
+Profile Page
 
 
 

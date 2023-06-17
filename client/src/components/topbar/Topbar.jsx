@@ -11,7 +11,7 @@ export default function Topbar() {
     <div className="topbarContainer">
       <div className="topbarLeft">
         <Link to="/" style={{ textDecoration: "none" }}>
-          <span className="logo">MSocial</span>
+          <span className="logo">SSquare</span>
         </Link>
       </div>
       <div className="topbarCenter">
@@ -25,8 +25,10 @@ export default function Topbar() {
       </div>
       <div className="topbarRight">
         <div className="topbarLinks">
-          <span className="topbarLink">Homepage</span>
-          <span className="topbarLink">Timeline</span>
+        <Link to="/" style={{ color:"white" ,textDecoration: 'none', hover:'red' }}>
+        <span className="topbarLink">Homepage</span>
+        </Link>
+          <Link to="/logout"  style={{ color:"white" ,textDecoration: 'none', hover:'red'}}>  <span className="topbarLink">Logout</span></Link>
         </div>
         <div className="topbarIcons">
           <div className="topbarIconItem">
