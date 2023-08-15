@@ -1,30 +1,69 @@
+// import { useEffect, useState } from "react";
+import styled from "styled-components";
+// import { logout } from "../redux/apiCalls";
+// import { mobile } from "../responsive";
+// import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
+// import { logoutStart, logoutSuccess, logoutFailure} from "../redux/userRedux";
+
+const Button = styled.button`
+  width: 100%;
+  border: none;
+  padding: 15px 20px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+  &:disabled {
+    color: green;
+    cursor: not-allowed;
+  }
+  font-size: 2rem;
+`;
+
+const Form = styled.form`
+  display: flex;
+  flex-direction: column;
+`;
 
 
-import React from 'react';
-import { useHistory } from 'react-router-dom';
-import "../logout/logout.css";
+// const Logout = () => {
+//     const dispatch = useDispatch();
+//     const [username, setUsername] = useState("");
+//     const [password, setPassword] = useState("");
+  
+    // useEffect(() => {
+    //   dispatch({ type: "CLEAR_USER_DATA" });
+    //   setUsername("");
+    //   setPassword("");
+    // }, []);
+  
+    // const handleLogoutClick = (e) => {
+    //   e.preventDefault();
+    //   logout(dispatch);
+    // };
 
-const LogoutButton = () => {
-  const history = useHistory();
+    const Logout = () => {
+      const handleLogout = () => {
+        localStorage.removeItem("persist:root");
+        window.location.href = "/login"; // redirect to login page
+      };
+    
+      return (
+        <>
+          <h1>LOGOUT NOW</h1>
+    
+          <Form>
+            <Link to="/login">
+            <Button  onClick={handleLogout}>LOGOUT</Button>
+            </Link>
+          </Form>
+        </>
+      );
+    };
+    
+    
+  
 
-  const handleLogout = () => {
-    // Add your logout logic here
-    // This can include clearing session data, updating user status, etc.
-    // For the sake of this example, let's assume we simply log out and redirect to the login or register page.
-    console.log("You have been logged out successfully.");
-    history.push('/login'); // Redirect to the login page
-    // history.push('/register'); //  if you want to redirect to the register page instead
-  };
-
-  return (
-    <>
-   <h1> LOGOUT NOW</h1>
-    <button onClick={handleLogout} style={{ color:'white' , backgroundColor:'teal' , width:'100%' , height:'30%' , fontSize:'22px'}}>
-      Logout
-    </button>
-    </>
-  );
-};
-
-export default LogoutButton;
+export default Logout;
 
